@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <audio
-      controls
-      src="/audio/Highway to Helena 8-bit.mp3"
-      id="backgroundmusic"
-      loop="loop"
-    ></audio>
     <header>
+      <audio id="djAudio" src="./audio/Highway to Helena 8-bit.mp3"></audio>
+      <div onclick="playDJ()" id="djAudio" class="audioContainer">
+        <img class="imgAudio" src="./images/djcool.gif" />
+        <div class="audioContainer-chat">
+          <p>EEyyYo! Click me to hear some sick tunes!</p>
+        </div>
+      </div>
       <div class="header-container">
         <h1>Cat <span>vs</span> Mouse <span>vs</span> Dog!</h1>
         <article class="rules">

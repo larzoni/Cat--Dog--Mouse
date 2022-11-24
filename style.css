@@ -12,6 +12,26 @@ body {
   background-size: cover;
   font-size: 11px;
 }
+
+.audioContainer {
+  position: fixed;
+  top: 0px;
+  left: 10vw;
+  width: 40%;
+}
+
+.audioContainer-chat {
+  border-radius: 10px;
+  width: 10rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: azure;
+}
+
+.imgAudio {
+  width: 10rem;
+}
+
 .header-container {
   text-align: center;
   color: aliceblue;

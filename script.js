@@ -1,8 +1,6 @@
 
 //SOUNDS
-window.onload=function(){
-  document.getElementById("backgroundmusic").play();
-}
+let playDJ = function(){document.getElementById("djAudio").play()}
 let playDog = function(){document.getElementById("dogAudio").play()}
 let playCat = function(){document.getElementById("catAudio").play()}
 let playMouse = function(){document.getElementById("mouseAudio").play()}
